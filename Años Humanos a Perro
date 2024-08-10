@@ -1,0 +1,27 @@
+//Se Crea una variable llamada myAge y almacena tu edad
+let myAge = 25; // Mi edad actual en años humanos
+
+//Se Crea una variable llamada earlyYears y guarda el valor 2
+let earlyYears = 2; // Los primeros dos años de un perro, que se calculan de manera diferente
+
+//Se Multiplica earlyYears por 10.5 y reasigna el resultado a earlyYears
+earlyYears *= 10.5; // Los primeros dos años de un perro equivalen a 10.5 años de perro cada uno
+
+//Se Resta 2 de myAge y almacena el resultado en laterYears
+let laterYears = myAge - 2; // Restando los primeros dos años ya considerados
+
+//Multiplica laterYears por 4
+laterYears *= 4; // Cada año humano después de los primeros dos equivale a 4 años de perro
+
+//Imprime earlyYears y laterYears en la consola para verificar los valores
+console.log(earlyYears); // Valor esperado: 21
+console.log(laterYears); // Valor esperado: 92
+
+//Suma earlyYears y laterYears para obtener myAgeInDogYears
+let myAgeInDogYears = earlyYears + laterYears; // Edad total en años de perro
+
+//Convierte tu nombre a minúsculas y almacénalo en myName
+let myName = "TuNombre".toLowerCase(); // Convierte el nombre a minúsculas
+
+//Muestra tu nombre y edad en años de perro usando console.log y la interpolación de cadenas
+console.log(`Mi nombre es ${myName}. Tengo ${myAgeInDogYears} años en años de perro.`);
