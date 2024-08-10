@@ -1,0 +1,21 @@
+// 1. Crea una variable constante llamada kelvin y configúrala como 293
+const kelvin = 293;
+
+// 2. Convierte Kelvin a Celsius restando 273, y guarda el resultado en la variable celsius
+const celsius = kelvin - 273;
+
+// 3. Convierte Celsius a Fahrenheit usando la fórmula y guarda el resultado en la variable fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+
+// 4. Redondea hacia abajo el número guardado en fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+
+// 5. Utiliza console.log con interpolación de cadenas para registrar la temperatura en Fahrenheit
+console.log(`La temperatura es ${fahrenheit} grados Fahrenheit.`);
+
+// 8. Convierte Celsius a Newton usando la fórmula y guarda el resultado en la variable newton
+let newton = celsius * (33 / 100);
+
+// 9. Redondea hacia abajo la temperatura de Newton usando Math.floor() y registra la temperatura en la consola
+newton = Math.floor(newton);
+console.log(`La temperatura es ${newton} grados Newton.`);
